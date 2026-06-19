@@ -1,0 +1,98 @@
+.education{
+    padding:100px 80px;
+}
+
+.education-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.education-title h2{
+    font-size:3rem;
+    color:white;
+    margin-bottom:10px;
+}
+
+.education-title p{
+    color:#94a3b8;
+}
+
+.education-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.edu-card{
+    background:rgba(255,255,255,0.03);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:.4s;
+}
+
+.edu-card:hover{
+    transform:translateY(-10px);
+
+    border-color:#3b82f6;
+
+    box-shadow:
+    0 10px 25px rgba(59,130,246,0.2);
+}
+
+.year{
+    display:inline-block;
+
+    background:#3b82f6;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+}
+
+.edu-card h3{
+    color:white;
+
+    line-height:1.5;
+
+    margin-bottom:15px;
+}
+
+.edu-card h4{
+    color:#3b82f6;
+
+    margin-bottom:15px;
+
+    font-weight:500;
+}
+
+.edu-card p{
+    color:#cbd5e1;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+
+    .education{
+        padding:80px 20px;
+    }
+
+    .education-title h2{
+        font-size:2rem;
+    }
+
+    .education-container{
+        grid-template-columns:1fr;
+    }
+
+}

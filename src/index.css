@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+
+    font-family:
+    "Inter",
+    "Poppins",
+    sans-serif;
+
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+li{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+section{
+    width:100%;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0f172a;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#3b82f6;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#2563eb;
+}
+
+/* Selection */
+
+::selection{
+    background:#3b82f6;
+    color:white;
+}
+
+/* Mobile View */
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+}
