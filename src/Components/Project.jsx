@@ -1,6 +1,7 @@
 import "./Project.css";
 import smartwaste from "../assets/waste-management.png"
 import eduverse from "../assets/eduverse.png"
+import truthchain from "../assets/Truthchain.png"
 
 function Projects() {
   return (
@@ -61,6 +62,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
+          <img src={truthchain} alt="truthchain" className="project-image" />
           <h3>TruthChain</h3>
         
           <p>
@@ -75,8 +77,8 @@ function Projects() {
           </div>
 
           <div className="project-btns">
-            <a href="#">GitHub</a>
-            <a href="#">Demo</a>
+            <a href="https://github.com/Ebinesh07/Truthchain">GitHub</a>
+            <a href="https://truthchains.netlify.app/">Demo</a>
           </div>
         </div>
 

@@ -31,7 +31,7 @@ function Contact() {
         <div className="contact-card">
           <i className="bi bi-linkedin"></i>
           <h3>LinkedIn</h3>
-          <a href="https://linkedin.com/in/ebinesh-b1825ae"
+          <a href="https://linkedin.com/in/ebinesh1825"
             target="_blank"
             rel="noreferrer"
             >

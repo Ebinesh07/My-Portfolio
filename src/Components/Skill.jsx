@@ -48,7 +48,7 @@ function Skills() {
           <div className="skill-tags">
             <span>Git</span>
             <span>GitHub</span>
-            <span>Postman</span>
+            <span>MySQL Workbench</span>
             <span>VS Code</span>
           </div>
         </div>
